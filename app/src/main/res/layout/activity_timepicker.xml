@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".timepicker"
+    android:background="@drawable/bg2">
+    <include layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="40dp"
+
+        android:layout_above="@+id/grid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="131dp"
+        android:text="Please select a slot"
+        android:textSize="30dp"></TextView>
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/one"
+            android:layout_width="150dp"
+            android:text="8am-9am"
+            android:layout_row="1"
+            android:layout_column="1"></Button>
+        <Button
+            android:layout_width="150dp"
+            android:id="@+id/two"
+            android:text="9am-10am"
+            android:layout_row="1"
+            android:layout_column="2"
+            android:layout_marginLeft="20dp"></Button>
+        <Button
+            android:layout_width="150dp"
+            android:id="@+id/three"
+            android:text="10am-11am"
+            android:layout_row="2"
+            android:layout_column="1"></Button>
+        <Button
+            android:id="@+id/four"
+            android:layout_width="150dp"
+            android:text="11am-12pm"
+            android:layout_marginLeft="20dp"></Button>
+        <Button
+            android:id="@+id/five"
+            android:layout_width="150dp"
+            android:text="12pm-1pm"
+            android:layout_row="3"
+            android:layout_column="1"></Button>
+        <Button
+            android:id="@+id/six"
+            android:layout_width="150dp"
+            android:text="1pm-2pm"
+            android:layout_marginLeft="20dp"></Button>
+        <Button
+            android:id="@+id/seven"
+            android:layout_width="150dp"
+            android:text="2pm-3pm"
+            android:layout_row="4"
+            android:layout_column="1"
+            ></Button>
+        <Button
+        android:id="@+id/eight"
+        android:layout_width="150dp"
+        android:text="3pm-4pm"
+        android:layout_marginLeft="20dp"></Button>
+    </GridLayout>
+
+</RelativeLayout>

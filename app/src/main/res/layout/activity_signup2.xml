@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bgnew"/>
+
+    <EditText
+        android:id="@+id/signupemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="Enter email id"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="80dp"/>
+
+    <EditText
+        android:id="@+id/signuppass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Enter password"
+        android:textColor="@color/white"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="80dp"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Ration Card Number"
+        android:textColor="@color/white"
+        android:layout_below="@+id/signuppass"
+        android:layout_marginLeft="80dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:id="@+id/signupbutton"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="150dp"
+        ></Button>>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already Registered? Login"
+        android:id="@+id/text3"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/signupbutton"
+        android:textSize="20dp"
+        android:onClick="login"/>
+
+
+
+
+</RelativeLayout>

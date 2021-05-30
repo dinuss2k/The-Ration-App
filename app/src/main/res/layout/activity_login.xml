@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".login">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bgnew"/>
+
+    <EditText
+        android:id="@+id/loginemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:text="Enter email id"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="80dp"/>
+
+    <EditText
+        android:id="@+id/loginpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:text="Enter password"
+        android:textColor="@color/white"
+        android:layout_marginTop="300dp"
+        android:layout_marginLeft="80dp"/>
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Login"
+          android:id="@+id/loginbutton"
+          android:layout_marginTop="400dp"
+          android:layout_marginLeft="150dp"
+          ></Button>>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Not Registered?Register"
+          android:onClick="register"
+          android:textColor="@color/white"
+          android:layout_marginTop="10dp"
+          android:layout_marginLeft="80dp"
+          android:layout_below="@+id/loginbutton"
+          android:textSize="20dp"/>
+
+
+</RelativeLayout>

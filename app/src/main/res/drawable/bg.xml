@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="812" viewBox="0 0 375 812">
+    <defs>
+        <clipPath id="clip-Welcome_Page">
+            <rect width="375" height="812"/>
+        </clipPath>
+    </defs>
+    <g id="Welcome_Page"
+        clip-path="url(#clip-Welcome_Page)">
+        <rect width="375" height="812" fill="#fff"/>
+        <ellipse id="Ellipse_1"
+            cx="408.5" cy="408" rx="408.5" ry="408" transform="matrix(0.848, -0.53, 0.53, 0.848, -264.554, 165.41)" fill="#1e042e"/>
+        <text id="Welcome" transform="translate(64.5 136)" fill="#707070" stroke="#f32828" stroke-width="1" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="-40.923" y="0">Welcome</tspan></text>
+        <g id="profile-user" transform="translate(146.945 165.946)">
+            <path id="Path_1"
+                d="M44.337,0C19.853,0,0,17.582,0,39.271s19.851,39.27,44.337,39.27,44.337-17.581,44.337-39.27S68.825,0,44.337,0Zm0,11.742C52.439,11.743,59,17.56,59,24.732S52.439,37.722,44.337,37.722,29.674,31.907,29.674,24.732,36.239,11.743,44.337,11.743Zm-.01,56.53a35.113,35.113,0,0,1-21.189-6.921,5.3,5.3,0,0,1-2.193-4.207c0-7.274,6.647-13.1,14.861-13.1H52.871c8.217,0,14.838,5.822,14.838,13.1a5.285,5.285,0,0,1-2.191,4.206A35.1,35.1,0,0,1,44.327,68.274Z" transform="translate(0 0)" fill="#f9eaea"/>
+        </g>
+    </g>
+</svg>
